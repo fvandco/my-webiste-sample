@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxpower Security Solutions LLC | Building Maintenance & Security Services</title>
+    <meta name="description" content="Leading provider of building maintenance, security solutions, and fitout services in Dubai since 2007. 100+ satisfied clients across UAE.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body class="bg-gray-100 font-poppins">
+    <!-- Navigation -->
+    <nav class="bg-gray-900 text-white p-4 sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="text-2xl md:text-3xl font-bold">Maxpower<span class="text-yellow-500">.</span></div>
+            </div>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#home" class="hover:text-yellow-400 transition-colors">Home</a>
+                <a href="#services" class="hover:text-yellow-400 transition-colors">Services</a>
+                <a href="#projects" class="hover:text-yellow-400 transition-colors">Projects</a>
+                <a href="#clients" class="hover:text-yellow-400 transition-colors">Clients</a>
+                <a href="#about" class="hover:text-yellow-400 transition-colors">About</a>
+                <a href="#contact" class="bg-yellow-500 text-gray-900 px-4 py-2 rounded-full hover:bg-yellow-600 transition-colors font-semibold">Get a Quote</a>
+            </div>
+            <button class="md:hidden text-xl" id="mobile-menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-gray-800" id="mobile-menu">
+            <div class="container mx-auto px-4 py-2 flex flex-col space-y-3">
+                <a href="#home" class="py-2 hover:text-yellow-400">Home</a>
+                <a href="#services" class="py-2 hover:text-yellow-400">Services</a>
+                <a href="#projects" class="py-2 hover:text-yellow-400">Projects</a>
+                <a href="#clients" class="py-2 hover:text-yellow-400">Clients</a>
+                <a href="#about" class="py-2 hover:text-yellow-400">About</a>
+                <a href="#contact" class="bg-yellow-500 text-gray-900 px-4 py-2 rounded-full my-2 text-center font-semibold">Get a Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative h-screen bg-gray-900 overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center opacity-50"></div>
+        <div class="container mx-auto h-full flex items-center relative z-10 px-4">
+            <div class="max-w-2xl text-white">
+                <p class="text-lg md:text-xl mb-4 font-light animate-fade-in">Comprehensive Building Solutions Since 2007</p>
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight animate-fade-in">Your Trusted Partner for <span class="text-yellow-400">Building Excellence</span></h1>
+                <p class="text-lg md:text-xl mb-8 animate-fade-in">From security systems to complete building maintenance and fit-out solutions - we deliver quality you can trust.</p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 animate-fade-in">
+                    <a href="#contact" class="bg-yellow-500 text-gray-900 px-8 py-3 rounded-full text-lg font-semibold hover:bg-yellow-600 transition-all text-center">Get Free Consultation</a>
+                    <a href="#services" class="bg-transparent border-2 border-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-white hover:text-gray-900 transition-all text-center">Explore Services</a>
+                </div>
+            </div>
+        </div>
+        <a href="#services" class="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white text-2xl animate-bounce">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-12 bg-yellow-500 text-gray-900">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="p-4">
+                    <div class="text-3xl md:text-5xl font-bold mb-2">16+</div>
+                    <div class="text-sm md:text-base font-medium">Years Experience</div>
+                </div>
+                <div class="p-4">
+                    <div class="text-3xl md:text-5xl font-bold mb-2">100+</div>
+                    <div class="text-sm md:text-base font-medium">Satisfied Clients</div>
+                </div>
+                <div class="p-4">
+                    <div class="text-3xl md:text-5xl font-bold mb-2">500+</div>
+                    <div class="text-sm md:text-base font-medium">Projects Completed</div>
+                </div>
+                <div class="p-4">
+                    <div class="text-3xl md:text-5xl font-bold mb-2">24/7</div>
+                    <div class="text-sm md:text-base font-medium">Support Available</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Why Choose Maxpower?</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">We combine expertise with dedication to deliver exceptional results every time.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-gray-50 p-6 rounded-xl shadow-sm hover:shadow-md transition-all border-l-4 border-yellow-500">
+                    <div class="text-yellow-500 text-3xl mb-4">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Experienced Professionals</h3>
+                    <p class="text-gray-600">Our team brings decades of combined experience in building maintenance and security solutions.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl shadow-sm hover:shadow-md transition-all border-l-4 border-yellow-500">
+                    <div class="text-yellow-500 text-3xl mb-4">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Client-Centric Approach</h3>
+                    <p class="text-gray-600">Your satisfaction is our priority. We tailor solutions to your specific needs and budget.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl shadow-sm hover:shadow-md transition-all border-l-4 border-yellow-500">
+                    <div class="text-yellow-500 text-3xl mb-4">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Rapid Response</h3>
+                    <p class="text-gray-600">Emergency services available with quick turnaround times for urgent maintenance needs.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl shadow-sm hover:shadow-md transition-all border-l-4 border-yellow-500">
+                    <div class="text-yellow-500 text-3xl mb-4">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Quality Assurance</h3>
+                    <p class="text-gray-600">We use premium materials and follow strict quality control protocols for lasting results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Comprehensive Services</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">From routine maintenance to complete fit-outs, we offer end-to-end building solutions.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="group bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all transform hover:-translate-y-2">
+                    <div class="h-48 bg-[url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center"></div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-yellow-500 p-3 rounded-full text-white mr-4 group-hover:rotate-12 transition-transform">
+                                <i class="fas fa-paint-roller text-xl"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold">Painting Services</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Interior and exterior painting with premium quality paints and expert application techniques.</p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center"><i class="fas fa-check text-yellow-500 mr-2"></i> Texture painting</li>
+                            <li class="flex items-center"><i class="fas fa-check text-yellow-500 mr-2"></i> Wallpaper installation</li>
+                            <li class="flex items-center"><i class="fas fa-check text-yellow-500 mr-2"></i> End-of-tenancy painting</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="group bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all transform hover:-translate-y-2">
+                    <div class="h-48 bg-[url('https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80')] bg-cover bg-center"></div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-yellow-500 p-3 rounded-full text-white mr-4 group-hover:rotate-12 transition-transform">
+                                <i class="fas fa-tools text-xl"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold">Fit-Out Solutions</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Complete commercial and residential fit-out services tailored to your vision and requirements.</p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center"><i class="fas fa-check text-yellow-500 mr-2"></i> Space planning</li>
+                            <li class="flex items-center"><i class="fas fa-check text-yellow-500 mr-2"></i> Partitioning</li>
+                            <li class="flex items-center"><i class="fas fa-check text-yellow-500 mr-2"></i> Custom joinery</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Service Card 3 -->
+                <div class="group bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all transform hover:-translate-y-2">
+                    <div class="h-48 bg-[url('https://images.unsplash.com/photo-1600607688969-a5bfcd646154?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center"></div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-yellow-500 p-3 rounded-full text-white mr-4 group-hover:rotate-12 transition-transform">
+                                <i class="fas fa-tint-slash text-xl"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold">Maintenance Services</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Comprehensive building maintenance to keep your property in perfect condition year-round.</p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center"><i class="fas fa-check text-yellow-500 mr-2"></i> Electrical works</li>
+                            <li class="flex items-center"><i class="fas fa-check text-yellow-500 mr-2"></i> Plumbing solutions</li>
+                            <li class="flex items-center"><i class="fas fa-check text-yellow-500 mr-2"></i> Waterproofing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <a href="#contact" class="inline-block bg-gray-900 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-yellow-500 hover:text-gray-900 transition-all">
+                    View All Services <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Recent Projects</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Explore some of our successful projects across Dubai and UAE.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project 1 -->
+                <div class="group relative overflow-hidden rounded-xl shadow-md h-64">
+                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80" 
+                         alt="Office Fitout Project" 
+                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
+                        <div>
+                            <h3 class="text-xl font-semibold text-white mb-1">Commercial Office Fitout</h3>
+                            <p class="text-gray-300">Complete interior design and fitout for a corporate office in DIFC</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="group relative overflow-hidden rounded-xl shadow-md h-64">
+                    <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80" 
+                         alt="Villa Renovation" 
+                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
+                        <div>
+                            <h3 class="text-xl font-semibold text-white mb-1">Luxury Villa Renovation</h3>
+                            <p class="text-gray-300">Complete renovation and interior design for a Palm Jumeirah villa</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="group relative overflow-hidden rounded-xl shadow-md h-64">
+                    <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80" 
+                         alt="Retail Space" 
+                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
+                        <div>
+                            <h3 class="text-xl font-semibold text-white mb-1">Retail Space Development</h3>
+                            <p class="text-gray-300">Custom retail space design and build for a fashion boutique in Dubai Mall</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <a href="#contact" class="inline-block bg-yellow-500 text-gray-900 px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-900 hover:text-white transition-all">
+                    Start Your Project <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Trusted By Leading Organizations</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">We're proud to partner with some of the most respected names in the region.</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
+                <div class="bg-white p-6 rounded-lg shadow-sm flex justify-center items-center h-24">
+                    <span class="text-gray-800 font-semibold text-lg">Zayed University</span>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm flex justify-center items-center h-24">
+                    <span class="text-gray-800 font-semibold text-lg">Danube</span>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm flex justify-center items-center h-24">
+                    <span class="text-gray-800 font-semibold text-lg">Amazon</span>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm flex justify-center items-center h-24">
+                    <span class="text-gray-800 font-semibold text-lg">Dubai Charity</span>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm flex justify-center items-center h-24">
+                    <span class="text-gray-800 font-semibold text-lg">Ultimate Oil & Gas</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-gray-900 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">What Our Clients Say</h2>
+                <p class="text-lg text-gray-300 max-w-2xl mx-auto">Hear from some of our satisfied clients about their experience working with us.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-2xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6 italic">"Maxpower transformed our office space beyond expectations. Their attention to detail and commitment to quality is unmatched. Completed the project ahead of schedule with no compromises."</p>
+                    <div class="flex items-center">
+                        <div class="bg-gray-700 rounded-full w-12 h-12 flex items-center justify-center text-xl font-semibold mr-4">JD</div>
+                        <div>
+                            <h4 class="font-semibold">John Doe</h4>
+                            <p class="text-sm text-gray-400">CEO, Tech Solutions Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-2xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6 italic">"The maintenance team from Maxpower has been handling our property for 3 years now. Their professionalism and quick response to any issues have been invaluable to our operations."</p>
+                    <div class="flex items-center">
+                        <div class="bg-gray-700 rounded-full w-12 h-12 flex items-center justify-center text-xl font-semibold mr-4">AS</div>
+                        <div>
+                            <h4 class="font-semibold">Ahmed Samir</h4>
+                            <p class="text-sm text-gray-400">Facility Manager, Luxury Residences</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-2xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6 italic">"From the initial consultation to project completion, Maxpower demonstrated exceptional expertise in fit-out works. They understood our brand aesthetic perfectly."</p>
+                    <div class="flex items-center">
+                        <div class="bg-gray-700 rounded-full w-12 h-12 flex items-center justify-center text-xl font-semibold mr-4">SR</div>
+                        <div>
+                            <h4 class="font-semibold">Sarah Rahman</h4>
+                            <p class="text-sm text-gray-400">Retail Director, Fashion House</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Our Story</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        Established in 2007, Maxpower Security Solutions LLC began as a specialized provider of CCTV and biometric security systems in Dubai. Recognizing the growing need for comprehensive building solutions, we expanded our expertise to include building maintenance, management, and interior fit-out services.
+                    </p>
+                    <p class="text-lg text-gray-600 mb-6">
+                        Today, with over 100 successful projects across the UAE, we combine our security expertise with building maintenance knowledge to offer integrated solutions that protect and enhance your property.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="bg-yellow-500 p-2 rounded-full mr-4 mt-1">
+                                <i class="fas fa-check text-white text-sm"></i>
+                            </div>
+                            <p class="text-gray-700">Transparency in all our dealings and communications</p>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-yellow-500 p-2 rounded-full mr-4 mt-1">
+                                <i class="fas fa-check text-white text-sm"></i>
+                            </div>
+                            <p class="text-gray-700">Commitment to quality and timely project delivery</p>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-yellow-500 p-2 rounded-full mr-4 mt-1">
+                                <i class="fas fa-check text-white text-sm"></i>
+                            </div>
+                            <p class="text-gray-700">Continuous improvement through innovation and learning</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 relative">
+                    <div class="bg-gray-100 rounded-xl overflow-hidden shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
+                             alt="Maxpower Team" 
+                             class="w-full h-auto">
+                    </div>
+                    <div class="absolute -bottom-6 -left-6 bg-yellow-500 text-gray-900 p-6 rounded-xl shadow-lg w-2/3">
+                        <div class="text-4xl font-bold mb-2">16+</div>
+                        <div class="text-lg font-semibold">Years of Trusted Service</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-gradient-to-r from-blue-800 to-gray-900 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Space?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Contact us today for a free consultation and quote. Our experts are ready to discuss your project requirements.</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="tel:+971585779484" class="bg-white text-gray-900 px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-200 transition-all">
+                    <i class="fas fa-phone-alt mr-2"></i> Call Now
+                </a>
+                <a href="#contact" class="bg-transparent border-2 border-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-white hover:text-gray-900 transition-all">
+                    Get a Quote
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Get In Touch</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Have questions or ready to start your project? Reach out to our team.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <div class="bg-white p-8 rounded-xl shadow-md mb-8">
+                        <h3 class="text-xl font-semibold mb-6">Contact Information</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="text-yellow-500 mr-4 mt-1">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">Our Office</h4>
+                                    <p class="text-gray-600">Hamdan Colony, Karama, Dubai. P.O Box: 98872</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="text-yellow-500 mr-4 mt-1">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">Phone</h4>
+                                    <p class="text-gray-600">+971 585 779 484<br>+971 585 779 493</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="text-yellow-500 mr-4 mt-1">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">Email</h4>
+                                    <p class="text-gray-600">mpss@maxpowerdubai.com</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="text-yellow-500 mr-4 mt-1">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">Website</h4>
+                                    <p class="text-gray-600">maxpowerdubai.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-8 rounded-xl shadow-md">
+                        <h3 class="text-xl font-semibold mb-6">Business Hours</h3>
+                        <div class="space-y-3">
+                            <div class="flex justify-between">
+                                <span class="text-gray-600">Monday - Friday</span>
+                                <span class="font-medium">8:00 AM - 6:00 PM</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-gray-600">Saturday</span>
+                                <span class="font-medium">9:00 AM - 4:00 PM</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-gray-600">Sunday</span>
+                                <span class="font-medium">Closed</span>
+                            </div>
+                            <div class="pt-4">
+                                <p class="text-sm text-gray-500">*Emergency services available 24/7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <h3 class="text-xl font-semibold mb-6">Send Us a Message</h3>
+                    <form class="space-y-4">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Your Name*</label>
+                                <input type="text" id="name" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address*</label>
+                                <input type="email" id="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500">
+                        </div>
+                        <div>
+                            <label for="service" class="block text-sm font-medium text-gray-700 mb-1">Service Interested In</label>
+                            <select id="service" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500">
+                                <option value="">Select a service</option>
+                                <option value="painting">Painting
